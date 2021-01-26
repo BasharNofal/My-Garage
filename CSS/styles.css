@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 main {
     width: 80%;
 }
@@ -15,7 +16,7 @@ main {
     /* height: 70%; */
     padding: 3%;
     display: inline-block;
-    margin: 40px ;
+    margin: 30px ;
     background-color: #a3a3a3;
     border-radius: 5px;
 }
@@ -23,9 +24,10 @@ main {
 header {
     font-size: 30px;
     color: white;
-    padding: 1px;
+    padding: 2px;
     background-color: #4a4a4a;
     text-align: center;
+    width: 100%;
 }
 
 #cars-list {
@@ -52,8 +54,9 @@ header {
 #form input, #form select{
     margin: 5px;
     width: 50%;
-    height: 40%;
+    height: 30px;
     text-align: center;
+    font-size: larger;
 }
 
 #form input:last-child {
