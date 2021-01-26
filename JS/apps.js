@@ -35,11 +35,11 @@ function store(){
 
 function retrieve (){
     if (localStorage.getItem('arrayOfCars')) {
-        var newArrayOfCars = JSON.parse(localStorage.getItem('arrayOfCars'));
-    }
-    for (let index = 0; index < newArrayOfCars.length; index++) {
-        var renderStoredCars = new Cars(newArrayOfCars[index].name,newArrayOfCars[index].category,newArrayOfCars[index].year,newArrayOfCars[index].img);
-        renderStoredCars.render();
+        var arrayOfCars = JSON.parse(localStorage.getItem('arrayOfCars'));
+        for (let index = 0; index < arrayOfCars.length; index++) {
+            var renderStoredCars = new Cars(arrayOfCars[index].name,arrayOfCars[index].category,arrayOfCars[index].year,arrayOfCars[index].img);
+            renderStoredCars.render();
+        }
     }
 }
 
