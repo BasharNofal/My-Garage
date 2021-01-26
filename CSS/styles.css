@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    width: 80%;
+}
+
+.first-div,.second-div{
+    font-weight: bolder;
+    text-align: center;
+    width: 35%;
+    /* height: 70%; */
+    padding: 3%;
+    display: inline-block;
+    margin: 40px ;
+    background-color: #a3a3a3;
+    border-radius: 5px;
+}
+
+header {
+    font-size: 30px;
+    color: white;
+    padding: 1px;
+    background-color: #4a4a4a;
+    text-align: center;
+}
+
+#cars-list {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#cars-list img{
+    width: 50px;
+    height: 50px;
+}
+
+#cars-list tr{
+    background-color: white ;
+    border: 1px solid #a3a3a3
+}
+
+#cars-list p {
+    margin: 4px 2px 4px 2px
+}
+
+#form input, #form select{
+    margin: 5px;
+    width: 50%;
+    height: 40%;
+    text-align: center;
+}
+
+#form input:last-child {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Garage</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>My Garage</h1>
+    </header>
+    <main>
+        <div class="first-div">
+            <form id="form">
+                <label for="name">Car Name</label><br>
+                <input type="text" name="name"><br>
+                <label for="category">Category Model</label><br>
+                <select name="category">
+                    <option value="tesla">Tesla</option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="hyundai">Hyundai</option>
+                    <option value="bmw">BMW</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="kia">KIA</option>
+                    <option value="lexus">Lexus</option>
+                </select><br>
+                <label for="year">Year Model</label><br>
+                <select name="year">
+                    <option value="2015">2015</option>
+                    <option value="2015">2016</option>
+                    <option value="2015">2017</option>
+                    <option value="2015">2018</option>
+                    <option value="2015">2019</option>
+                    <option value="2015">2020</option>
+                    <option value="2015">2021</option>
+                </select><br>
+                <input type="submit">
+            </form>
+        </div>
+
+        <div class="second-div">
+            <table id="cars-list">
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <script src="JS/apps.js"></script>
+    </footer>
+</body>
+
+</html>
